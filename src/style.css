@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 41, 41);
+
+    .player {
+        width: 100vw;
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+}
+
+@media (width <=600px) {
+    .main {
+        .player {
+            flex-direction: column;
+        }
+    }
+}
