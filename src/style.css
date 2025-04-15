@@ -24,7 +24,6 @@
     .main {
         .player {
             flex-direction: column;
-
             iframe {
                 width: 90%;
             }
